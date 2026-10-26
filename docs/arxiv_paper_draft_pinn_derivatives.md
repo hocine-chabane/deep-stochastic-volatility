@@ -2,13 +2,13 @@
 
 **El Hocine Chabane**  
 *HEC Paris & Institut Polytechnique de Paris*  
-`el-hocine.chabane@hec.edu` | GitHub: [@hoholebg](https://github.com/hoholebg)
+`el-hocine.chabane@hec.edu` | GitHub: [@hocine-chabane](https://github.com/hocine-chabane)
 
 ---
 
 ## Abstract
 
-We present a unified deep learning framework utilizing Physics-Informed Neural Networks (PINNs) and Neural Stochastic Differential Equations (Neural SDEs) for pricing complex path-dependent financial derivatives and structured equity products. By embedding the Black-Scholes partial differential operator directly into the loss function of deep neural architectures, our approach eliminates spatial grid discretization errors and bypasses the curse of dimensionality. We calibrate our models on real-world equity market data retrieved via Yahoo Finance (including NVIDIA `$NVDA`, Tesla `$TSLA`, and Apple `$AAPL`). Numerical experiments demonstrate that trained Neural SDE operators evaluate Asian options and Phoenix Autocallable Notes in sub-millisecond execution times ($< 1.0 \text{ ms}$), achieving a $900\times$ speedup over high-precision Monte Carlo simulations while maintaining an average absolute pricing error under $\$0.26$. Exact analytical Greeks ($\Delta, \Gamma$) are extracted via automatic differentiation (`autograd`), validating the robustness of deep learning paradigms in institutional quantitative pricing pipelines.
+We present a unified deep learning framework utilizing Physics-Informed Neural Networks (PINNs) and Neural Stochastic Differential Equations (Neural SDEs) for pricing complex path-dependent financial derivatives and structured equity products. By embedding the Black-Scholes partial differential operator directly into the loss function of deep neural architectures, our approach eliminates spatial grid discretization errors and bypasses the curse of dimensionality. We calibrate our models on real-world equity market data retrieved via Yahoo Finance (including NVIDIA `$NVDA`, Tesla `$TSLA`, and Apple `$AAPL`). Numerical experiments demonstrate that trained Neural SDE operators evaluate Asian options and Phoenix Autocallable Notes in sub-millisecond execution times ($< 1.0 \text{ ms}$), achieving an $\sim 85\times$ speedup over high-precision Monte Carlo simulations while maintaining an average absolute pricing error under $\$0.26$. Exact analytical Greeks ($\Delta, \Gamma$) are extracted via automatic differentiation (`autograd`), validating the robustness of deep learning paradigms in institutional quantitative pricing pipelines.
 
 **Keywords**: Physics-Informed Neural Networks (PINN), Neural SDEs, Structured Products, Phoenix Autocall, Path-Dependent Options, Black-Scholes PDE, Automatic Differentiation, Quantitative Finance.
 
